@@ -1,0 +1,13 @@
+name: EggHunt
+version: 1.0
+main: me.windy41.dragonegg.TrackerPlugin
+api-version: 1.21
+Author: Windy41
+description: A plugin to that broadcasts the location of the dragon egg holder.
+depend: [DiscordSRV]
+commands:
+  egghunt:
+    description: "Broadcast the location of the dragon egg holder."
+    usage: "/egghunt"
+    permission: dragonegg.command.egghunt
+    permission-message: "You do not have permission to use this command."

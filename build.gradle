@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group = 'me.windy41'
+version = '1.0'
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.21.5-R0.1-SNAPSHOT'
+    compileOnly files('libs/DiscordSRV-Build-1.29.0.jar')
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+jar {
+    archiveBaseName.set('EggHunt')
+    archiveVersion.set('0.9.0')
+    destinationDirectory.set(file("${projectDir}/build/libs"))
+}
