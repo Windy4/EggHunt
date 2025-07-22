@@ -1,9 +1,9 @@
 name: EggHunt
-version: 1.0
+version: 2.0
 main: me.windy41.dragonegg.TrackerPlugin
 api-version: 1.21
 Author: Windy41
-description: A plugin to that broadcasts the location of the dragon egg holder.
+description: A plugin to that broadcasts the location of the dragon egg holder. And gives buffs to egg holder
 depend: [DiscordSRV]
 commands:
   egghunt:
