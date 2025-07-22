@@ -14,15 +14,5 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
 	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
-	<classpathentry kind="lib" path="C:/Users/Add New User/Documents/GitHub/EggHunt/libs/DiscordSRV-Build-1.29.0.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value=""/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Add New User/.gradle/caches/modules-2/files-2.1/net.dv8tion/JDA/5.0.0-beta.24/422ea26cc183a0a4f06fc4ddc72ae772c9ad72b3/JDA-5.0.0-beta.24.jar" sourcepath="C:/Users/Add New User/.gradle/caches/modules-2/files-2.1/net.dv8tion/JDA/5.0.0-beta.24/bc93355f6f04172415bcbfc4601a47a3cface45b/JDA-5.0.0-beta.24-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="bin/default"/>
 </classpath>
