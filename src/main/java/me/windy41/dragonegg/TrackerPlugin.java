@@ -105,7 +105,7 @@ public class TrackerPlugin extends JavaPlugin implements Listener {
     }
     
     private void halfWayWarning() {
-    	sendToDiscord("⚠️ **30 minutes until the next dragon egg tracking ping!**");
+
     }
     
     @EventHandler
@@ -186,7 +186,6 @@ public class TrackerPlugin extends JavaPlugin implements Listener {
                 }
             }
 
-            sendToDiscord("***No player is holding or has placed the 🐉 Dragon Egg.***");
         }
     }
 
